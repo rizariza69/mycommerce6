@@ -52,7 +52,7 @@
             "illuminate\\Foundation\\ComposerScripts::PostInstall",
             "php artisan optimize",
             "php artisan migrate --force"
-        ],
+        ]
 
         
     },
