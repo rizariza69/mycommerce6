@@ -47,6 +47,13 @@
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover"
+        ],
+        "post-install-cmd":[
+            "illuminate\\Foundation\\ComposerScripts::PostInstall",
+            "php artisan optimize",
+            "php artisan migrate --force"
+        ]
+
         ]
     },
     "config": {
