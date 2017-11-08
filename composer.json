@@ -54,7 +54,7 @@
             "php artisan migrate --force"
         ]
 
-        ]
+        
     },
     "config": {
         "preferred-install": "dist",
